@@ -168,7 +168,7 @@ function Questions({ apiData }) {
                     }
                     {
                       item.id != 4 ?
-                        (<Link to={`/ques/${Number(id) + 1}`} className="custom-btn next-btn text-sm md:text-lg md:py-0 py-2" onClick={(e) => { nextBtnHandler(e) }} style={!blurEffect ? { opacity: '.5', } : { opacity: "1" }}><span>Next</span></Link>) : null
+                        (<Link to={`/ques/${Number(id) + 1}`} className="custom-btn next-btn text-sm md:text-lg md:py-0 md:px-0 py-1" onClick={(e) => { nextBtnHandler(e) }} style={!blurEffect ? { opacity: '.5', } : { opacity: "1" }}><span>Next</span></Link>) : null
                     }
 
                     {
