@@ -660,7 +660,8 @@ to {
   border: 1px solid black;
   border-radius: 30%;
   background-image: url('https://www.codewithrandom.com/wp-content/uploads/2022/11/15-Bootstrap-login-forms38.png');
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .thanks-popup span:nth-child(1)
