@@ -131,21 +131,21 @@ function Questions({ apiData }) {
                   {/* Input for satisfection of product rating */}
                   {id == 1 ?
                     (<div className="my-5 flex justify-around">
-                      <span className="inputOps"><input type="radio" value="1" name="product-satisfection" onClick={(e) => { activeBgColor(e) }} />1</span>
-                      <span className="inputOps"><input type="radio" value="2" name="product-satisfection" onClick={(e) => { activeBgColor(e) }} />2</span>
-                      <span className="inputOps"><input type="radio" value="3" name="product-satisfection" onClick={(e) => { activeBgColor(e) }} />3</span>
-                      <span className="inputOps"><input type="radio" value="4" name="product-satisfection" onClick={(e) => { activeBgColor(e) }} />4</span>
-                      <span className="inputOps"><input type="radio" value="5" name="product-satisfection" onClick={(e) => { activeBgColor(e) }} />5</span>
+                      <span className="inputOps w-8 h-8 text-xl md:w-[50px] md:h-[50px] md:text-3xl"><input type="radio" value="1" name="product-satisfection" onClick={(e) => { activeBgColor(e) }} />1</span>
+                      <span className="inputOps w-8 h-8 text-xl md:w-[50px] md:h-[50px] md:text-3xl"><input type="radio" value="2" name="product-satisfection" onClick={(e) => { activeBgColor(e) }} />2</span>
+                      <span className="inputOps w-8 h-8 text-xl md:w-[50px] md:h-[50px] md:text-3xl"><input type="radio" value="3" name="product-satisfection" onClick={(e) => { activeBgColor(e) }} />3</span>
+                      <span className="inputOps w-8 h-8 text-xl md:w-[50px] md:h-[50px] md:text-3xl"><input type="radio" value="4" name="product-satisfection" onClick={(e) => { activeBgColor(e) }} />4</span>
+                      <span className="inputOps w-8 h-8 text-xl md:w-[50px] md:h-[50px] md:text-3xl"><input type="radio" value="5" name="product-satisfection" onClick={(e) => { activeBgColor(e) }} />5</span>
                     </div>) : null}
 
                   {/* Input for fairness of Price of the product rating */}
                   {item.id == 2 ?
                     (<div className="my-5 flex justify-around">
-                      <span className="inputOps-2"><input type="radio" value="1" name="product-price" onClick={(e) => { activeBgColor2(e) }} />1</span>
-                      <span className="inputOps-2"><input type="radio" value="2" name="product-price" onClick={(e) => { activeBgColor2(e) }} />2</span>
-                      <span className="inputOps-2"><input type="radio" value="3" name="product-price" onClick={(e) => { activeBgColor2(e) }} />3</span>
-                      <span className="inputOps-2"><input type="radio" value="4" name="product-price" onClick={(e) => { activeBgColor2(e) }} />4</span>
-                      <span className="inputOps-2"><input type="radio" value="5" name="product-price" onClick={(e) => { activeBgColor2(e) }} />5</span>
+                      <span className="inputOps-2 w-8 h-8 text-xl md:w-[50px] md:h-[50px] md:text-3xl"><input type="radio" value="1" name="product-price" onClick={(e) => { activeBgColor2(e) }} />1</span>
+                      <span className="inputOps-2 w-8 h-8 text-xl md:w-[50px] md:h-[50px] md:text-3xl"><input type="radio" value="2" name="product-price" onClick={(e) => { activeBgColor2(e) }} />2</span>
+                      <span className="inputOps-2 w-8 h-8 text-xl md:w-[50px] md:h-[50px] md:text-3xl"><input type="radio" value="3" name="product-price" onClick={(e) => { activeBgColor2(e) }} />3</span>
+                      <span className="inputOps-2 w-8 h-8 text-xl md:w-[50px] md:h-[50px] md:text-3xl"><input type="radio" value="4" name="product-price" onClick={(e) => { activeBgColor2(e) }} />4</span>
+                      <span className="inputOps-2 w-8 h-8 text-xl md:w-[50px] md:h-[50px] md:text-3xl"><input type="radio" value="5" name="product-price" onClick={(e) => { activeBgColor2(e) }} />5</span>
                     </div>) : null}
 
                   {/* Input for money satisfextion of the product rating */}
