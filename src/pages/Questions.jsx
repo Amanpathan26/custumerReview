@@ -125,7 +125,7 @@ function Questions({ apiData }) {
           filteredAPIData.map((item, i) => {
             return (
               <>
-                <form key={i} className="absolute bg-[#FBFCF8] rounded-md shadow-lg w-[60vw] md:w-[45vw] md:max-w-[615px] py-3 text-center content-center" onSubmit={getDataHandler}>
+                <form key={i} className="absolute bg-[#FBFCF8] rounded-md shadow-lg w-[80vw] md:w-[45vw] md:max-w-[615px] py-3 text-center content-center" onSubmit={getDataHandler}>
                   <h1 className="text-left text-sm md:text-xl font-semibold w-[90%] mx-auto my-3">{item.ques}</h1>
 
                   {/* Input for satisfection of product rating */}
